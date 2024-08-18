@@ -4,9 +4,20 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def index(request):
-    return HttpResponse("<h1>Это мой первый проект на Django</h1>")
+    #return render(request, 'main/index.html', {'caption': 'FIV'})
+    data = {'caption': 'FIV'}
+    return render(request, 'main/index.html', data)
+def about(request):
+    return render(request, 'main/about.html')
+def services(request):
+    return render(request, 'main/services.html')
+def contact(request):
+    return render(request, 'main/contact.html')
 
-def data(request):
+def new(request):
+    return render(request, 'main/new.html')
+
+def data (request):
     date_html = """
     <!DOCTYPE html>
     <html lang="ru">

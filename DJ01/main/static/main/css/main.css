@@ -1,0 +1,90 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+aside {
+    background-color: #6c757d; /* Серый цвет фона для навигации */
+    padding: 20px;
+    border-right: 1px solid #dee2e6;
+    min-height: 100vh;
+}
+
+aside img {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+aside span {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+aside ul {
+    padding: 0;
+    list-style: none;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+aside ul li a:hover {
+    color: #0d6efd;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #6c757d; /* Серый цвет фона для футера */
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+footer h5 {
+    margin-bottom: 15px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer .text-center {
+    margin-top: 20px;
+}
+
+/* Дополнительные стили для основных блоков страниц */
+.page-header {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 10px;
+}
+
+.page-content {
+    margin-bottom: 30px;
+}
+
+/* Использование стандартных классов Bootstrap */
+.btn-custom {
+    background-color: #0d6efd;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn-custom:hover {
+    background-color: #0b5ed7;
+    color: #ffffff;
+}
