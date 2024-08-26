@@ -20,6 +20,8 @@ from . import views
 
 urlpatterns = [
     path('', views.home, name='news_home'),
+    path('create_news/', views.create_news, name='add_new'),
+
 #    path('about/', views.about, name='about'),
 #    path('services/', views.services, name='services'),
 #    path('contact/', views.contact, name='contact'),
