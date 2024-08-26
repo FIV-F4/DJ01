@@ -88,3 +88,38 @@ footer .text-center {
     background-color: #0b5ed7;
     color: #ffffff;
 }
+
+.news-item {
+    background-color: #ffffff; /* белый фон для контраста с текстом */
+    border: 1px solid #dee2e6; /* серая рамка */
+    border-radius: 8px; /* скругленные углы */
+    padding: 20px; /* внутренний отступ */
+    margin-bottom: 20px; /* отступ снизу для разделения новостей */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* тень для лучшего визуального выделения */
+    transition: box-shadow 0.3s ease-in-out; /* плавное изменение тени при наведении */
+}
+
+.news-item:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2); /* более выраженная тень при наведении */
+}
+
+.news-item h2 {
+    color: #0d6efd; /* синий цвет заголовка */
+    margin-bottom: 10px; /* меньше места под заголовком */
+}
+
+.news-item p {
+    margin-bottom: 10px; /* отступы между параграфами */
+    line-height: 1.6; /* увеличенный межстрочный интервал для лучшего чтения */
+}
+
+.news-item .news-date {
+    font-size: 0.9rem; /* меньший размер шрифта для даты */
+    color: #6c757d; /* серый цвет текста для даты */
+    margin-bottom: 10px; /* отступ снизу */
+}
+
+.news-item .news-author {
+    font-size: 0.9rem; /* меньший размер шрифта для автора */
+    font-style: italic; /* курсив для автора */
+}
